@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() {
+    int num, digits[10], count = 0;
+
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    // Extract digits and store in reverse
+    while(num > 0) {
+        digits[count] = num % 10;
+        num /= 10;
+        count++;
+    }
+
+    // Print digits in correct order
+    printf("Separated digits: ");
+    for(int i = count - 1; i >= 0; i--) {
+        printf("%d ", digits[i]);
+    }
+
+    printf("\n");
+    return 0;
+}
