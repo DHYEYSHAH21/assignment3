@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int n;
+    printf("Enter how many times to print my name: ");
+    scanf("%d", &n);
+
+    for(int i = 0; i < n; i++) {
+        printf("cricket\n");
+    }
+
+    return 0;
+}
