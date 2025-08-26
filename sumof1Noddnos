@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    int n;
+    printf("Enter how many odd numbers you want to sum: ");
+    scanf("%d", &n);
+
+    int sum = n * n;
+    printf("Sum of first %d odd numbers is: %d\n", n, sum);
+
+    return 0;
+}
