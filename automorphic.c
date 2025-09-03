@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include<math.h> // Needed for pow
 int main() {
     int num, square, temp, digits = 0, lastDigits;
 
